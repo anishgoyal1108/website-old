@@ -24,16 +24,37 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/index.css" rel="stylesheet">
 </head>
 
 <body>
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-
+<header>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light d-flex flex-column justify-content-center">
+	  <div class="container-fluid">
+		<a class="navbar-brand" href="#">Anish Goyal</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav ">
+			<li class="nav-item">
+			  <a class="nav-link" aria-current="page" href="#">About</a>
+			</li>
+      <li class="nav-item">
+			  <a class="nav-link" aria-current="page" href="#">Blog</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Projects</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+</header>
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Anish Goyal</h1>
-      <p>I'm a <span class="typed" data-typed-items="Computer Engineer, Security Researcher, Software Developer"></span></p>
+      <p>I'm an aspiring <span class="typed" data-typed-items="Computer Engineer, Security Researcher, Software Developer"></span></p>
       <div class="social-links">
         <a href="mailto:anishgoyal1108@gmail.com" class="mail"><i class="bx bxs-envelope"></i></a>
         <a href="blog" class="blog"><i class='bx bx-rss'></i></a>
@@ -48,8 +69,6 @@
   </section>
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -58,10 +77,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
