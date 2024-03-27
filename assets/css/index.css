@@ -1,6 +1,6 @@
 body {
   font-family: "Inter", sans-serif;
-  background: #272829 !important;
+  background: #181825 !important;
 }
 
 h1,
@@ -60,7 +60,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(30, 30, 46, 0.8);
+  background: rgba(24, 24, 37, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
