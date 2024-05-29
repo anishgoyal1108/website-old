@@ -261,3 +261,8 @@
   new PureCounter();
 
 })()
+
+const aboutSection = document.getElementById('about');
+
+// Add the "active" class to the "about" section
+aboutSection.classList.add('active');

@@ -190,21 +190,11 @@ h6 {
 	padding-left: 150px;
 }
 
-.about {
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  position: relative;
-}
-
 .about:before {
   content: "";
-  background: rgb(24, 24, 37, 0.2);
+  background: rgb(24, 24, 100, 0.2);
   position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+  bottom: 30;
 }
 
 .about h1 {
@@ -213,6 +203,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #f14369;
+
 }
 
 .about p {
@@ -231,4 +222,16 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  #about {
+    opacity: 1.0 !important;
+  }
+}  
+
+#about {
+  position:relative;
+  top: 50px;
+  margin:15px;
 }
