@@ -1,6 +1,6 @@
 # Personal Website (Old)
 
-![image](https://github.com/user-attachments/assets/4e469959-2a81-4527-af17-5c962b7dc845)
+![](assets/website_old.gif)
 
 ## Overview
 
